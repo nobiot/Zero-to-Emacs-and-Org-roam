@@ -7,6 +7,8 @@ Part 1
 3. [Set up Org-roam (including sqlite3)](./30.Set-up-Org-roam.md)
 4. [Improve quality-of-life with your font, theme, and minimal select packages ](./40.Qol.md)
 
+The config file at the end of Part 1 is [located in this repo](./.emacs), too.
+
 ![What your Emacs will look like at the end of Part 1](images/2020-06-16_21-32-39.png)
 
 Part 2 (TBD; still thinking about what to include)
