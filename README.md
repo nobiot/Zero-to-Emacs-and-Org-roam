@@ -9,9 +9,10 @@ Part 1
 
 ![What your Emacs will look like at the end of Part 1](images/2020-06-16_21-32-39.png)
 
-Part 2 (TBD)
+Part 2 (TBD; still thinking about what to include)
 
-5. Set up Org-ref and Org-roam-bibtex (ORB)
-6. Get a spell checker for Emacs
-7. Write, and export to MS Word or PDF
-8. How to swap CapsLock with Ctrl
+5. Set up the graph function within Org-roam
+6. Set up Org-ref and Org-roam-bibtex (ORB)
+7. Get a spell checker for Emacs
+8. Write, and export to MS Word or PDF
+9. How to swap CapsLock with Ctrl
