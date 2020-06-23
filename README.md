@@ -24,7 +24,7 @@ Part 2 (working in progress)
 10. Set up the graph function within Org-roam
 
 At the end of chapter 5, you willl get to this point where you can use ORB.
-![Add a bibliographic note](images/2020-06-23_22-03-49.png)
+![Add a bibliographic note](images/2020-06-23_22-19-30.png)
 
 I am still writing the chapter on exporting to MS Word, but based on what I have done, the outcome should look something like this (the final result may look a bit different, but I hope you get an idea where this is going).
 ![Export to MS Word docx document](images/2020-06-23_22-18-19.png)
