@@ -15,13 +15,13 @@ The config file at the end of Part 1 is [located in this repo](./.emacs), too.
 
 Part 2 (working in progress)
 
-
 5. [Before we start Part 2 -- some notes](./50.Part2.md)
 6. [Set up Org-ref and Org-roam-bibtex (ORB)](./60.Org-ref_ORB.md)
-7. Export to MS Word (or PDF)
+7. [Export to MS Word](./70.publish.md) -- it's not really proof-read for spelling etc. yet; part of next chapter
 8. Get a spell checker for Emacs
 9. How to swap CapsLock with Ctrl
-10. Set up the graph function within Org-roam
+10. (maybe) Set up the graph function within Org-roam
+11. (maybe) Export to PDF
 
 At the end of chapter 5, you willl get to this point where you can use ORB.
 ![Add a bibliographic note](images/2020-06-23_22-19-30.png)
