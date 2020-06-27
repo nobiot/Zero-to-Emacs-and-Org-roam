@@ -27,7 +27,7 @@ At the end of chapter 6 on ORB, you willl get to this point where you can use OR
 ![Add a bibliographic note](images/2020-06-23_22-19-30.png)
 
 Chaper 7 is now published. It demonstrates a way to export your Org notes to MS Word. Resultant `.docx` files look like this:
-![Export to MS Word docx document](images/2020-06-27_19-22-17.png)
+![Export to MS Word docx document](images/2020-06-27_23-12-59.png)
 
 ## License
 

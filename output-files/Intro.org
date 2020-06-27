@@ -10,6 +10,14 @@ We call Emacs “advanced” because it can do much more than simple insertion a
 
 This is so according to cite:Clear2019. Ahrens describes this as the main objective of note-taking citeyear:Ahrens2017. 
 
+ 
+
+$$
+{\displaystyle [\mathbf {AB} ]_{i,j}=a_{i,1}b_{1,j}+a_{i,2}b_{2,j}+\cdots +a_{i,n}b_{n,j}=\sum _{r=1}^{n}a_{i,r}b_{r,j},}
+$$
+
+Equation 1. [fn:equation]
+
 “Extensible” means that you can go beyond simple customization and create entirely new commands.  New commands are simply programs written in the Lisp language, which are run by Emacs’s own Lisp interpreter. Existing commands can even be redefined in the middle of an editing session, without having to restart Emacs.  Most of the editing commands in Emacs are written in Lisp; the few exceptions could have been written in Lisp but use C instead for efficiency.  Writing an extension is programming, but non-programmers can use it afterwards.
 
 *Note Emacs Lisp Intro: (eintr)Top, if you want to learn Emacs Lisp programming.
@@ -17,5 +25,6 @@ This is so according to cite:Clear2019. Ahrens describes this as the main object
 * Bibliography
 
 [fn:Customization] See section on Customization.
+[fn:equation] Source: https://en.wikipedia.org/wiki/Matrix_(mathematics)
 
 
