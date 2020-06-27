@@ -13,7 +13,7 @@ The config file at the end of Part 1 is [located in this repo](./.emacs), too.
 
 ![What your Emacs will look like at the end of Part 1](images/2020-06-16_21-32-39.png)
 
-Part 2 (working in progress)
+Part 2 (work in progress)
 
 5. [Before we start Part 2 -- some notes](./50.Part2.md)
 6. [Set up Org-ref and Org-roam-bibtex (ORB)](./60.Org-ref_ORB.md)
@@ -31,4 +31,4 @@ Chaper 7 is now published. It demonstrates a way to export your Org notes to MS 
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 license</a>, except for source code and documentation excerpts from Emacs and Org-roam project.
