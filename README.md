@@ -17,8 +17,8 @@ Part 2 (work in progress)
 
 5. [Before we start Part 2 -- some notes](./50.Part2.md)
 6. [Set up Org-ref and Org-roam-bibtex (ORB)](./60.Org-ref_ORB.md)
-7. [Export to MS Word](./70.publish.md) -- it's not really proof-read for spelling etc. yet; part of next chapter
-8. Get a spell checker for Emacs
+7. [Export to MS Word](./70.publish.md)
+8. [Set up a spell checker (Hunspell, including how to get it)](./80.Spell-checker.md)
 9. How to swap CapsLock with Ctrl
 10. (maybe) Set up the graph function within Org-roam
 11. (maybe) Export to PDF
