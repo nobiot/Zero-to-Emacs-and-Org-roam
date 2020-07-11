@@ -2,6 +2,10 @@
 
 # Zero to Emacs and Org-roam: a step-by-step guide on Windows 10
 
+I have added a [script that automates installation](./35.auto-install.md) of packages that I describe in this guide up to [Chapter 6 on ORB](./60.Org-ref_ORB.md).
+
+Let me know how you go. 
+
 Part 1
 
 1. [Get Emacs for Windows](./10.Get-Emacs.md)
