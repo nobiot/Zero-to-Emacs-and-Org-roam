@@ -101,6 +101,9 @@
 
 ;; Avoid #file.org# to appear
 (auto-save-visited-mode)
+(setq create-lockfiles nil)
+;; Avoid filename.ext~ to appear
+(setq make-backup-files nil)
 
 ;; Turn on highligting the pair of parenthesis when cursor is on one of the pair
 (show-paren-mode 1)
