@@ -24,7 +24,6 @@
 (set-face-attribute 'fixed-pitch nil :font "Consolas-11")
 (set-face-attribute 'default nil :font "Consolas-11")
 (set-fontset-font nil 'symbol (font-spec :family "Segoe UI Symbol" :size 11.0))
-(set-fontset-font nil '(120491 . 120491) (font-spec :family "Cambria Math" :size 11.0)) ; Windows patch to display "delta 𝚫".
 (add-hook 'text-mode-hook 'variable-pitch-mode)
 
 ;; Set theme
