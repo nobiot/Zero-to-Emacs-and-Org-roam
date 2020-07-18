@@ -1,8 +1,6 @@
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
-;; I suggest to keep these comment lines, too
-;; below you will see customization automatically added by Emacs
 
 ;; Org and Org-roam
 
@@ -25,7 +23,11 @@
 ;; Font
 ;;; If you want to know how to correct specify a font in Windows,
 ;;; invoke `eval-last-sexp' for (w32-select-font)
-(set-face-attribute 'default nil  :font "iA Writer Quattro S-12")
+(set-face-attribute 'variable-pitch nil :font "iA Writer Quattro S-13")
+(set-face-attribute 'fixed-pitch nil :font "iA Writer Mono S-12")
+(set-face-attribute 'default nil :font "iA Writer Mono S-12")
+(set-fontset-font nil 'symbol (font-spec :family "Segoe UI Symbol" :size 11.0))
+(add-hook 'text-mode-hook 'variable-pitch-mode)
 
 ;; Set theme
 ;;; (Optional) Setting `custom-safe-themes' to t.
@@ -75,10 +77,14 @@
 (setq initial-major-mode 'org-mode)
 (setq-default indent-tabs-mode nil)
 (setq pop-up-windows nil)
-(tool-bar-mode 0) 
-(tooltip-mode  0)
+(tool-bar-mode 0)
+
+;;; Turn it on if you want to see pop-up tooltips with Org-ref mode
+(tooltip-mode 0)
 (scroll-bar-mode 0)
-(menu-bar-mode 1) ;menu bar is explictly turned on for beginners. Change the value to 0.
+
+;;; Menu bar is explictly turned on for beginners. Set value to 0 to turn off.
+(menu-bar-mode 1) 
 
 ;; Optional aditional aesthetic changes
 ;; Adapted from `elegance.el' in Elegant Emacs by Nicolas P. Rougier (rougier)
@@ -89,12 +95,22 @@
 (blink-cursor-mode 0)
 
 ;;; Line spacing, can be 0 for code and 1 or 2 for text
-(setq-default line-spacing 0)
+(setq-default line-spacing 2)
 
 ;;; Underline line at descent position, not baseline position
 (setq x-underline-at-descent-line t)
 
+;; Avoid #file.org# to appear
+(auto-save-visited-mode)
+(setq create-lockfiles nil)
+;; Avoid filename.ext~ to appear
+(setq make-backup-files nil)
 
+;; Turn on highligting the pair of parenthesis when cursor is on one of the pair
+(show-paren-mode 1)
+
+;; I suggest to keep these comment lines, too
+;; below you will see customization automatically added by Emacs
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
