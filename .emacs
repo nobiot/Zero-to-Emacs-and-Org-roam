@@ -1,3 +1,7 @@
+;; UTF-8 as default encoding
+(set-language-environment "UTF-8")
+
+;; Packages
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
@@ -128,6 +132,37 @@
 (setq ispell-program-name
       "~/bin/hunspell-1.3.2-3-w32-bin/bin/hunspell.exe")
 
+;; Org-roam-graph
+(setq org-roam-graph-executable "~/bin/graphviz-2.44.1-win32/Graphviz/bin/dot.exe")
+(setq org-roam-graph-viewer '(lambda (file) (let ((file-file (concat "file://" file)))
+    (call-process "C:/Program Files/Mozilla Firefox/firefox.exe" nil 0 nil file-file))))
+
+;; Emacs Server
+(server-start)
+
+;; Org-protocol & Org-roam-protocol
+(require 'org-protocol)
+(require 'org-roam-protocol)
+
+;; Hack to use Org Mode version 9.4 for function org-protocol-check-filename-for-protocol
+;;  This fixes org-protocol used with URL in Chrome on Windows
+;;  Adjust the filepath of the source code for the function
+;;  Remove this hack when Org Mode 9.4 is released
+(load-file "~/.emacs.d/+org-protocol-check-filename-for-protocol.el")
+(advice-add 'org-protocol-check-filename-for-protocol :override '+org-protocol-check-filename-for-protocol)
+
+;; Org-roam-server
+(require 'org-roam-server)
+(setq org-roam-server-host "127.0.0.1"
+       org-roam-server-port 8080
+       org-roam-server-export-inline-images t
+       org-roam-server-authenticate nil
+       org-roam-server-network-poll t
+       org-roam-server-network-arrows nil
+       org-roam-server-network-label-truncate t
+       org-roam-server-network-label-truncate-length 60
+       org-roam-server-network-label-wrap-length 20)
+
 ;; I suggest to keep these comment lines, too
 ;; below you will see customization automatically added by Emacs
 (custom-set-variables
@@ -137,7 +172,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (pandoc-mode ox-pandoc org-roam-bibtex org-ref markdown-mode olivetti zygospore swiper-helm counsel ivy modus-operandi-theme modus-vivendi-theme org-roam))))
+    (org-roam-server pandoc-mode ox-pandoc org-roam-bibtex org-ref markdown-mode olivetti zygospore swiper-helm counsel ivy modus-operandi-theme modus-vivendi-theme org-roam))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
