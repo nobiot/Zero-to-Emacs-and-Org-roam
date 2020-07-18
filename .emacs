@@ -109,6 +109,25 @@
 ;; Turn on highligting the pair of parenthesis when cursor is on one of the pair
 (show-paren-mode 1)
 
+;; Org-ref
+;; Set up bibliography
+(setq org-ref-default-bibliography '("~/iCloudDrive/bibliography/myBibliography.bib"))
+(setq bibtex-completion-bibliography "~/iCloudDrive/bibliography/myBibliography.bib")
+(global-set-key (kbd "<f6>") #'org-ref-helm-insert-cite-link)
+
+;; Org-roam-bibtex
+(require `org-roam-bibtex)
+(add-hook 'after-init-hook #'org-roam-bibtex-mode)
+(define-key org-roam-bibtex-mode-map (kbd "C-c n a") #'orb-note-actions)
+
+;; Pandoc mode to conver org files to other formats such as .docx, .md, or .pdf via LaTex
+(add-hook 'text-mode-hook 'pandoc-mode)
+
+;; Set up spell checker using Hunspell
+(setenv "LANG" "en_GB")
+(setq ispell-program-name
+      "~/bin/hunspell-1.3.2-3-w32-bin/bin/hunspell.exe")
+
 ;; I suggest to keep these comment lines, too
 ;; below you will see customization automatically added by Emacs
 (custom-set-variables
@@ -118,7 +137,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (olivetti zygospore swiper-helm counsel ivy modus-operandi-theme modus-vivendi-theme org-roam))))
+    (pandoc-mode ox-pandoc org-roam-bibtex org-ref markdown-mode olivetti zygospore swiper-helm counsel ivy modus-operandi-theme modus-vivendi-theme org-roam))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
