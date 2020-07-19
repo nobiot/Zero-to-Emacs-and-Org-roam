@@ -19,7 +19,7 @@ The config file at the end of Part 1 is [located in this repo](https://github.co
 
 Part 2
 
-5. [Before we start Part 2 -- some notes](./50.Part2.md)
+5. [Some more quality-of-life improvements for your typography -- font variations and line-spacing -- and other things](./50.Part2.md)
 6. [Set up Org-ref and Org-roam-bibtex (ORB)](./60.Org-ref_ORB.md)
 7. [Export to MS Word](./70.publish.md)
 8. [Set up a spell checker (Hunspell, including how to get it)](./80.Spell-checker.md)
