@@ -12,6 +12,7 @@ Part 1
 2. [Use Emacs to write some text (including copy & paste)](./20.Use-Emacs.md)
 3. [Set up Org-roam (including sqlite3)](./30.Set-up-Org-roam.md)
 4. [Improve quality-of-life with your font, theme, and minimal select packages ](./40.Qol.md)
+5. [Some more quality-of-life improvements for your typography -- font variations and line-spacing -- and other things](./50.Additional-QoL.md)
 
 The config file at the end of Part 1 is [located in this repo](https://github.com/nobiot/Zero-to-Emacs-and-Org-roam/blob/926c0f07708514bbdc6952dc3bac520d8668cbc1/.emacs), too. Refer to [its history](https://github.com/nobiot/Zero-to-Emacs-and-Org-roam/commits/main/.emacs) if you wish to see the incremental changes as we move along advanced chapters.
 
@@ -19,7 +20,6 @@ The config file at the end of Part 1 is [located in this repo](https://github.co
 
 Part 2
 
-5. [Some more quality-of-life improvements for your typography -- font variations and line-spacing -- and other things](./50.Part2.md)
 6. [Set up Org-ref and Org-roam-bibtex (ORB)](./60.Org-ref_ORB.md)
 7. [Export to MS Word](./70.publish.md)
 8. [Set up a spell checker (Hunspell, including how to get it)](./80.Spell-checker.md)
@@ -28,7 +28,7 @@ Part 3
 
 I consider the following "extra" features because they require a certain level of "hacking the system". I suggest that you selectively decide whether or not you would like to take on the challenges, depending on your familiarity wth the technical stuff on Windows.
 
-9. [Set `org-protocol`, `org-roam-graph`, and `org-roam-server` (incl. Windows registry)](./90.org-protocol.md)
+9. [Set up `org-protocol`, `org-roam-graph`, and `org-roam-server` (incl. Windows registry)](./90.org-protocol.md)
 10. (maybe) How to swap CapsLock with Ctrl
 11. (maybe) Org-noter (incl. How to open PDF within Emacs on Windows)
 12. (maybe) Export to PDF
