@@ -115,14 +115,40 @@
 
 ;; Org-ref
 ;; Set up bibliography
-(setq org-ref-default-bibliography '("~/iCloudDrive/bibliography/myBibliography.bib"))
-(setq bibtex-completion-bibliography "~/iCloudDrive/bibliography/myBibliography.bib")
+(setq org-ref-default-bibliography '("~/iCloudDrive/home/bibliography/myBibliography.bib"))
+(setq bibtex-completion-bibliography "~/iCloudDrive/home/bibliography/myBibliography.bib")
 (global-set-key (kbd "<f6>") #'org-ref-helm-insert-cite-link)
 
 ;; Org-roam-bibtex
 (require `org-roam-bibtex)
 (add-hook 'after-init-hook #'org-roam-bibtex-mode)
 (define-key org-roam-bibtex-mode-map (kbd "C-c n a") #'orb-note-actions)
+
+;; Open PDF file stored in Windows' standard Zotero storage
+(setq bibtex-completion-pdf-field "File")
+
+;; Org-noter integration
+;; https://github.com/org-roam/org-roam-bibtex#org-noter-integration-orb-process-file-field-key
+(setq orb-preformat-keywords
+   '(("citekey" . "=key=") "title" "url" "file" "author-or-editor" "keywords"))
+
+(setq orb-templates
+      '(("r" "ref" plain (function org-roam-capture--get-point)
+         ""
+         :file-name "${citekey}"
+         :head "#+TITLE: ${citekey}: ${title}\n#+ROAM_KEY: ${ref}
+
+- tags ::
+- keywords :: ${keywords}
+
+* ${title}
+:PROPERTIES:
+:Custom_ID: ${citekey}
+:URL: ${url}
+:AUTHOR: ${author-or-editor}
+:NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")
+:NOTER_PAGE:
+:END:")))
 
 ;; Pandoc mode to conver org files to other formats such as .docx, .md, or .pdf via LaTex
 (add-hook 'text-mode-hook 'pandoc-mode)
@@ -148,8 +174,10 @@
 ;;  This fixes org-protocol used with URL in Chrome on Windows
 ;;  Adjust the filepath of the source code for the function
 ;;  Remove this hack when Org Mode 9.4 is released
-(load-file "~/.emacs.d/+org-protocol-check-filename-for-protocol.el")
-(advice-add 'org-protocol-check-filename-for-protocol :override '+org-protocol-check-filename-for-protocol)
+
+;; Now Org Mode 9.4 is released
+;; (load-file "~/.emacs.d/+org-protocol-check-filename-for-protocol.el")
+;; (advice-add 'org-protocol-check-filename-for-protocol :override '+org-protocol-check-filename-for-protocol)
 
 ;; Org-roam-server
 (require 'org-roam-server)
@@ -163,6 +191,9 @@
        org-roam-server-network-label-truncate-length 60
        org-roam-server-network-label-wrap-length 20)
 
+;; PDF-Tools
+(pdf-loader-install)
+
 ;; I suggest to keep these comment lines, too
 ;; below you will see customization automatically added by Emacs
 (custom-set-variables
@@ -171,8 +202,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   (quote
-    (org-roam-server pandoc-mode ox-pandoc org-roam-bibtex org-ref markdown-mode olivetti zygospore swiper-helm counsel ivy modus-operandi-theme modus-vivendi-theme org-roam))))
+   '(org-noter smex org-roam-server pandoc-mode ox-pandoc org-roam-bibtex org-ref markdown-mode olivetti zygospore swiper-helm counsel ivy modus-operandi-theme modus-vivendi-theme org-roam)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
