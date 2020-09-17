@@ -29,8 +29,8 @@ Part 3
 I consider the following "extra" features because they require a certain level of "hacking the system". I suggest that you selectively decide whether or not you would like to take on the challenges, depending on your familiarity wth the technical stuff on Windows.
 
 9. [Set up `org-protocol`, `org-roam-graph`, and `org-roam-server` (incl. Windows registry)](./90.org-protocol.md)
-10. (maybe) How to swap CapsLock with Ctrl
-11. (maybe) Org-noter (incl. How to open PDF within Emacs on Windows)
+10. [Work with PDF files in Emacs with PDF-Tools and Org-noter](./100.pdf-tools-org-noter.md)
+1. (maybe) How to swap CapsLock with Ctrl
 12. (maybe) Export to PDF
 
 At the end of chapter 6 on ORB, you will get to this point where you can use ORB.
@@ -42,6 +42,10 @@ Chaper 7 is now published. It demonstrates a way to export your Org notes to MS 
 Chapter 9 lets you play with interactive visualisation of your notes and their relationships via `org-roam-server`:
 
 ![Animation showing `org-roam-sever` interacting with Emacs](images/zero-to-org-roam-server.gif)
+
+Chapter 10 provides an easy step-by-step instruction on how to install PDF-Tools on Windows, and configure Org-noter to work with ORB.
+
+![Open a PDF docuement with PDF-Tools in Emacs; work with Org-noter to take notes](images/2020-09-17_23-13-37.png)
 
 ## License
 
