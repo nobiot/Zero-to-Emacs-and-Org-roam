@@ -29,7 +29,7 @@ Part 3
 I consider the following "extra" features because they require a certain level of "hacking the system". I suggest that you selectively decide whether or not you would like to take on the challenges, depending on your familiarity wth the technical stuff on Windows.
 
 9. [Set up `org-protocol`, `org-roam-graph`, and `org-roam-server` (incl. Windows registry)](./90.org-protocol.md)
-10. [Work with PDF files in Emacs with PDF-Tools and Org-noter](./100.pdf-tools-org-noter.md)
+10. [Work with PDF files in Emacs with PDF-Tools, Org-noter, and ORB](./100.pdf-tools-org-noter.md)
 1. (maybe) How to swap CapsLock with Ctrl
 12. (maybe) Export to PDF
 
