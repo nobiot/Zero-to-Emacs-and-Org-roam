@@ -41,7 +41,7 @@ Chaper 7 is now published. It demonstrates a way to export your Org notes to MS 
 
 Chapter 9 lets you play with interactive visualisation of your notes and their relationships via `org-roam-server`:
 
-![Animation showing `org-roam-sever` interacting with Emacs](images/zero-to-org-roam-server.gif)
+![Animation showing `org-roam-sever` interacting with Emacs](images/zero-to-org-roam-server.png)
 
 Chapter 10 provides an easy step-by-step instruction on how to install PDF-Tools on Windows, and configure Org-noter to work with ORB.
 
