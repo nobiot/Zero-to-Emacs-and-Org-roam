@@ -21,6 +21,10 @@
 (global-set-key (kbd "C-c n b") #'org-roam-switch-to-buffer)
 (global-set-key (kbd "C-c n d") #'org-roam-find-directory)
 
+;;; Recommendation for Windows users for performance
+;;; https://github.com/org-roam/org-roam/issues/1289#issuecomment-744046148
+(setq org-roam-db-update-method 'immediate)
+
 ;;; Let's also assign C-z to undo here
 (global-set-key (kbd "C-z") 'undo) ;Emacs default is bound to hide Emacs.
 
@@ -119,7 +123,7 @@
 (scroll-bar-mode 0)
 
 ;;; Menu bar is explictly turned on for beginners. Set value to 0 to turn off.
-(menu-bar-mode 0) 
+(menu-bar-mode 0)
 
 ;; Optional aditional aesthetic changes
 ;; Adapted from `elegance.el' in Elegant Emacs by Nicolas P. Rougier (rougier)
