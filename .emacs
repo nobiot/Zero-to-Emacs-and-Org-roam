@@ -41,13 +41,44 @@
 ;;; Automatically load the theme you like
 ;;; I am using Modus Operandi (light theme) here
 ;;; There is also modus-vivendi (dark theme)
-(load-theme 'modus-operandi)
+;; (load-theme 'modus-operandi)
+(load-theme 'doom-nord)
+(doom-modeline-mode 1)
+(require 'dashboard)
+(dashboard-setup-startup-hook)
+;; Below Dashboard config adapted from
+;; https://github.com/emacs-dashboard/emacs-dashboard
+;; Set the title
+(setq dashboard-banner-logo-title "Welcome to Emacs Dashboard")
+;; Set the banner
+(setq dashboard-startup-banner 'logo)
+;; Value can be
+;; 'official which displays the official emacs logo
+;; 'logo which displays an alternative emacs logo
+;; 1, 2 or 3 which displays one of the text banners
+;; "path/to/your/image.png" or "path/to/your/text.txt" which displays whatever image/text you would prefer
+;; Content is not centered by default. To center, set
+(setq dashboard-center-content t)
+;; To disable shortcut "jump" indicators for each section, set
+(setq dashboard-show-shortcuts nil)
 
 ;; Ivy,Counsel, & Swiper
 ;;; Enable Ivy mode in general
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
 (setq enable-recursive-minibuffers t)
+(ivy-rich-mode 1)
+(all-the-icons-ivy-rich-mode 1)
+(setq neo-theme 'icons)
+(add-hook 'after-init-hook 'global-company-mode)
+(with-eval-after-load 'company
+  (setq company-minimum-prefix-length 0)
+  (setq company-idle-delay 0.25)
+  (setq company-backends '(company-capf))
+  (setq completion-ignore-case t)
+  (define-key company-active-map (kbd "C-n") #'company-select-next)
+  (define-key company-active-map (kbd "C-p") #'company-select-previous))
+(add-hook 'after-init-hook 'which-key-mode)
 
 ;;; Add Counsel and Swiper search functions
 (global-set-key (kbd "C-c f r") #'counsel-recentf)
@@ -88,7 +119,7 @@
 (scroll-bar-mode 0)
 
 ;;; Menu bar is explictly turned on for beginners. Set value to 0 to turn off.
-(menu-bar-mode 1) 
+(menu-bar-mode 0) 
 
 ;; Optional aditional aesthetic changes
 ;; Adapted from `elegance.el' in Elegant Emacs by Nicolas P. Rougier (rougier)
@@ -201,8 +232,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(neo-theme 'icons t)
  '(package-selected-packages
-   '(org-noter smex org-roam-server pandoc-mode ox-pandoc org-roam-bibtex org-ref markdown-mode olivetti zygospore swiper-helm counsel ivy modus-operandi-theme modus-vivendi-theme org-roam)))
+   '(which-key company neotree all-the-icons-ivy-rich dashboard doom-modeline doom-themes org-noter smex org-roam-server pandoc-mode ox-pandoc org-roam-bibtex org-ref markdown-mode olivetti zygospore swiper-helm counsel ivy modus-operandi-theme modus-vivendi-theme org-roam)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
