@@ -6,7 +6,14 @@ I have added a [script that automates installation](./35.auto-install.md) of pac
 
 Let me know how you go. 
 
-Part 1
+## Special part
+
+Perhaps in time for Christmas, I have changed the gear a bit, and added some decoration to vanilla Emacs.
+
+11. [Make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md)
+![Outcome screen shot](./images/2020-12-19_22-54-59.png)
+
+## Part 1
 
 1. [Get Emacs for Windows](./10.Get-Emacs.md)
 2. [Use Emacs to write some text (including copy & paste)](./20.Use-Emacs.md)
@@ -18,20 +25,20 @@ The config file at the end of Part 1 is [located in this repo](https://github.co
 
 ![What your Emacs will look like at the end of Part 1](images/2020-06-16_21-32-39.png)
 
-Part 2
+## Part 2
 
 6. [Set up Org-ref and Org-roam-bibtex (ORB)](./60.Org-ref_ORB.md)
 7. [Export to MS Word](./70.publish.md)
 8. [Set up a spell checker (Hunspell, including how to get it)](./80.Spell-checker.md)
 
-Part 3 
+## Part 3 
 
 I consider the following "extra" features because they require a certain level of "hacking the system". I suggest that you selectively decide whether or not you would like to take on the challenges, depending on your familiarity wth the technical stuff on Windows.
 
 9. [Set up `org-protocol`, `org-roam-graph`, and `org-roam-server` (incl. Windows registry)](./90.org-protocol.md)
 10. [Work with PDF files in Emacs with PDF-Tools, Org-noter, and ORB](./100.pdf-tools-org-noter.md)
-1. (maybe) How to swap CapsLock with Ctrl
-12. (maybe) Export to PDF
+12. (maybe) How to swap CapsLock with Ctrl
+13. (maybe) Export to PDF
 
 At the end of chapter 6 on ORB, you will get to this point where you can use ORB.
 ![Add a bibliographic note](images/2020-06-23_22-19-30.png)
