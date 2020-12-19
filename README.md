@@ -21,6 +21,7 @@ At the end of step-by-step guide of Part 1, your Emacs will look like this.
 Perhaps in time for Christmas, I have changed the gear a bit, and added some decoration to vanilla Emacs.
 
 11. [Make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md)
+
 ![Outcome screen shot](./images/2020-12-19_22-54-59.png)
 
 Even if you are already down the path of using a framework like Doom, I hope stepping back a little and actually finishing configuration from scratch will help you understand how things fit together – it’s a bit like DIY making stuff; completing one thing from start to finish seems to help you leap to the next level of understanding and confidence for some reason.
@@ -47,6 +48,7 @@ I consider the following "extra" features because they require a certain level o
 
 9. [Set up `org-protocol`, `org-roam-graph`, and `org-roam-server` (incl. Windows registry)](./90.org-protocol.md)
 10. [Work with PDF files in Emacs with PDF-Tools, Org-noter, and ORB](./100.pdf-tools-org-noter.md)
+11. [Make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md)
 12. (maybe) How to swap CapsLock with Ctrl
 13. (maybe) Export to PDF
 
@@ -71,6 +73,10 @@ Chapter 9 lets you play with interactive visualisation of your notes and their r
 Chapter 10 provides an easy step-by-step instruction on how to install PDF-Tools on Windows, and configure Org-noter to work with ORB.
 
 ![Open a PDF docuement with PDF-Tools in Emacs; work with Org-noter to take notes](images/2020-09-17_23-13-37.png)
+
+Chapter 11 [lets you make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md).
+
+![Outcome screen shot](./images/2020-12-19_22-54-59.png)
 
 ## License
 
