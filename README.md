@@ -2,16 +2,28 @@
 
 # Zero to Emacs and Org-roam: a step-by-step guide on Windows 10
 
-I have added a [script that automates installation](./35.auto-install.md) of packages that I describe in this guide up to [Chapter 6 on ORB](./60.Org-ref_ORB.md).
+I took the liberty of creating a step-by-step guide for people new to Emacs. I have written this with Windows users with no Linux or programming background in mind, zero about Emacs.
 
-Let me know how you go. 
+## Audience and purpose in mind
+The audience I have had in mind are:
 
-## Special part
+- New to Emacs
+- Windows users (Emacs part should be useful for others, I hope)
+- No programming or Linux background
+- Looking to use Org-roam / Emacs to help write long-form material (essays / papers about life, humanities, or some qualitative social sciences, etc.) as opposed to math and programming
+
+The guide aims to get you going real quick, starting with downloading Emacs with vanilla configuration (no Doom, no Spacemacs).
+
+At the end of step-by-step guide of Part 1, your Emacs will look like this.
+
+![What your Emacs will look like at the end of Part 1](images/2020-06-16_21-32-39.png)
 
 Perhaps in time for Christmas, I have changed the gear a bit, and added some decoration to vanilla Emacs.
 
 11. [Make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md)
 ![Outcome screen shot](./images/2020-12-19_22-54-59.png)
+
+Even if you are already down the path of using a framework like Doom, I hope stepping back a little and actually finishing configuration from scratch will help you understand how things fit together – it’s a bit like DIY making stuff; completing one thing from start to finish seems to help you leap to the next level of understanding and confidence for some reason.
 
 ## Part 1
 
@@ -22,8 +34,6 @@ Perhaps in time for Christmas, I have changed the gear a bit, and added some dec
 5. [Some more quality-of-life improvements for your typography -- font variations and line-spacing -- and other things](./50.Additional-QoL.md)
 
 The config file at the end of Part 1 is [located in this repo](https://github.com/nobiot/Zero-to-Emacs-and-Org-roam/blob/926c0f07708514bbdc6952dc3bac520d8668cbc1/.emacs), too. Refer to [its history](https://github.com/nobiot/Zero-to-Emacs-and-Org-roam/commits/main/.emacs) if you wish to see the incremental changes as we move along advanced chapters.
-
-![What your Emacs will look like at the end of Part 1](images/2020-06-16_21-32-39.png)
 
 ## Part 2
 
@@ -39,6 +49,14 @@ I consider the following "extra" features because they require a certain level o
 10. [Work with PDF files in Emacs with PDF-Tools, Org-noter, and ORB](./100.pdf-tools-org-noter.md)
 12. (maybe) How to swap CapsLock with Ctrl
 13. (maybe) Export to PDF
+
+## Extra
+
+I have added a [script that automates installation](./35.auto-install.md) of packages that I describe in this guide up to [Chapter 6 on ORB](./60.Org-ref_ORB.md).
+
+Let me know how you go. 
+
+---
 
 At the end of chapter 6 on ORB, you will get to this point where you can use ORB.
 ![Add a bibliographic note](images/2020-06-23_22-19-30.png)
