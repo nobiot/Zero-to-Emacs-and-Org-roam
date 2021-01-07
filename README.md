@@ -4,25 +4,26 @@
 
 I took the liberty of creating a step-by-step guide for people new to Emacs. I have written this with Windows users with no Linux or programming background in mind, zero about Emacs.
 
-## Audience and purpose in mind
-The audience I have had in mind are:
-
-- New to Emacs
-- Windows users (Emacs part should be useful for others, I hope)
-- No programming or Linux background
-- Looking to use Org-roam / Emacs to help write long-form material (essays / papers about life, humanities, or some qualitative social sciences, etc.) as opposed to math and programming
-
 The guide aims to get you going real quick, starting with downloading Emacs with vanilla configuration (no Doom, no Spacemacs).
 
 At the end of step-by-step guide of Part 1, your Emacs will look like this.
 
 ![What your Emacs will look like at the end of Part 1](images/2020-06-16_21-32-39.png)
 
-Perhaps in time for Christmas, I have changed the gear a bit, and added some decoration to vanilla Emacs.
+In addition, I have added an extra chapter to show you how you might personalize the look & feel of your Emacs, using Doom as a reference. I personally do not use this set up, preferring to be as minimal as I can be for my own purposes. I am aware my preference is perhas rather eccentric (who isn't?); this dark-mode-centric slick look might be something many others want to go for.
 
-11. [Make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md)
+*Extra 2*. [Make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md)
 
 ![Outcome screen shot](./images/2020-12-19_22-54-59.png)
+
+## Audience and purpose in mind
+
+The audience I have had in mind are:
+
+- New to Emacs
+- Windows users (Emacs part should be useful for others, I hope)
+- No programming or Linux background
+- Looking to use Org-roam / Emacs to help write long-form material (essays / papers about life, humanities, or some qualitative social sciences, etc.) as opposed to math and programming
 
 Even if you are already down the path of using a framework like Doom, I hope stepping back a little and actually finishing configuration from scratch will help you understand how things fit together – it’s a bit like DIY making stuff; completing one thing from start to finish seems to help you leap to the next level of understanding and confidence for some reason.
 
@@ -48,15 +49,18 @@ I consider the following "extra" features because they require a certain level o
 
 9. [Set up `org-protocol`, `org-roam-graph`, and `org-roam-server` (incl. Windows registry)](./90.org-protocol.md)
 10. [Work with PDF files in Emacs with PDF-Tools, Org-noter, and ORB](./100.pdf-tools-org-noter.md)
-11. [Make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md)
+11. [Insert an image from the clipboard, or the Snipping Tool on Windows](115.How-to-enable-insert-image-from-clipboard.md)
 12. (maybe) How to swap CapsLock with Ctrl
 13. (maybe) Export to PDF
 
 ## Extra
 
-I have added a [script that automates installation](./35.auto-install.md) of packages that I describe in this guide up to [Chapter 6 on ORB](./60.Org-ref_ORB.md).
+*Extra 1*: I have added a [script that automates installation](./35.auto-install.md) of packages that I describe in this guide up to [Chapter 6 on ORB](./60.Org-ref_ORB.md).
 
 Let me know how you go. 
+
+*Extra 2*: [Make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md)
+
 
 ---
 
