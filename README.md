@@ -55,9 +55,7 @@ I consider the following "extra" features because they require a certain level o
 
 ## Extra
 
-*Extra 1*: I have added a [script that automates installation](./35.auto-install.md) of packages that I describe in this guide up to [Chapter 6 on ORB](./60.Org-ref_ORB.md).
-
-Let me know how you go. 
+*Extra 1*: I have added a [script that automates installation](./35.auto-install.md) of packages that I describe in this guide up to [Chapter 6 on ORB](./60.Org-ref_ORB.md). Let me know how you go. 
 
 *Extra 2*: [Make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md)
 
@@ -78,7 +76,7 @@ Chapter 10 provides an easy step-by-step instruction on how to install PDF-Tools
 
 ![Open a PDF docuement with PDF-Tools in Emacs; work with Org-noter to take notes](images/2020-09-17_23-13-37.png)
 
-Chapter 11 [lets you make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md).
+Extra 2 [lets you make vanilla Emacs look like Doom](./110.how-to-make-vanilla-look-like-doom.md).
 
 ![Outcome screen shot](./images/2020-12-19_22-54-59.png)
 
