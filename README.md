@@ -49,7 +49,7 @@ I consider the following "extra" features because they require a certain level o
 
 9. [Set up `org-protocol`, `org-roam-graph`, and `org-roam-server` (incl. Windows registry)](./90.org-protocol.md)
 10. [Work with PDF files in Emacs with PDF-Tools, Org-noter, and ORB](./100.pdf-tools-org-noter.md)
-11. [Insert an image from the clipboard, or the Snipping Tool on Windows](115.How-to-enable-insert-image-from-clipboard.md)
+11. [Insert an image from the clipboard, or the Snipping Tool on Windows (incl. in-line display resizing without Imagemagick, or external programs)](115.How-to-enable-insert-image-from-clipboard.md)
 12. (maybe) How to swap CapsLock with Ctrl
 13. (maybe) Export to PDF
 
