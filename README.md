@@ -4,7 +4,7 @@
 
 Org-roam's author Jethro has expressed his plan to switch to version 2 (v2) [at end of June 2021](https://github.com/org-roam/org-roam/pull/1401#issuecomment-857646674). It will be markedly different from the current version (v1) for both its initial setup and daily usage. This means that this guide will only be applicable to v1 for Org-roam and its related packages such as Org-roam-bibtex ans Org-roam-server for now.
 
-I am planning to spend some time and try to gradually revise this guide in its entirety for v2. I am hopimg that I can do this during the Nothern Hemisphere's summer. Thank you.
+I am planning to spend some time and try to gradually revise this guide in its entirety for v2. I am hoping that I can do this during the Nothern Hemisphere's summer. Thank you.
 
 # Zero to Emacs and Org-roam: a step-by-step guide on Windows 10
 
