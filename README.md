@@ -1,5 +1,11 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 
+# Notes on Org-roam V2
+
+Org-roam's author Jethro has expressed his plan to switch to version 2 (v2) [at end of June 2021](https://github.com/org-roam/org-roam/pull/1401#issuecomment-857646674). It will be markedly different from the current version (v1) for both its initial setup and daily usage. This means that this guide will only be applicable to v1 for Org-roam and its related packages such as Org-roam-bibtex ans Org-roam-server for now.
+
+I am planning to spend some time and try to gradually revise this guide in its entirety for v2. I am hopimg that I can do this during the Nothern Hemisphere's summer. Thank you.
+
 # Zero to Emacs and Org-roam: a step-by-step guide on Windows 10
 
 I took the liberty of creating a step-by-step guide for people new to Emacs. I have written this with Windows users with no Linux or programming background in mind, zero about Emacs.
