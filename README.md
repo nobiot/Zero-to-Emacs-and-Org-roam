@@ -33,7 +33,7 @@ Even if you are already down the path of using a framework like Doom, I hope ste
 
 ## Part 1
 
-1.[Get Emacs for Windows](./10.Get-Emacs.md)
+1. [Get Emacs for Windows](./10.Get-Emacs.md)
 2. Use Emacs to write some text (including copy & paste)
 3. [Set up Org-roam (including MSYS2 and emacsql-sqlite.exe)](./30.setup-org-roam.md) [WIP but main parts are illustrated with a series of screen shots]
 4. Improve quality-of-life with your font, theme, and minimal select packages
