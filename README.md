@@ -6,7 +6,7 @@ As of 17 Jul 2021, V2 has been released. Both MELPA and MELPA-Stable have this v
 
 I am gradually revising this guide in its entirety for v2. I am hoping that I can do this during the Nothern Hemisphere's summer.
 
-The the latest version of this guide compatible for v1 is available in the [v1 branch of this repositry](https://github.com/nobiot/Zero-to-Emacs-and-Org-roam/tree/v1).
+The latest version of this guide compatible for v1 is available in the [v1 branch of this repositry](https://github.com/nobiot/Zero-to-Emacs-and-Org-roam/tree/v1).
 
 # Zero to Emacs and Org-roam: a step-by-step guide on Windows 10
 
