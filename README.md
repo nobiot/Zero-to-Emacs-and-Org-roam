@@ -4,7 +4,13 @@
 
 As of 17 Jul 2021, V2 has been released. Both MELPA and MELPA-Stable have this version of Org-roam. It will be markedly different from v1 for both its initial setup and daily usage. At the moment, most of the content of guide will only be applicable to v1 for Org-roam and its related packages such as Org-roam-bibtex.
 
-I am gradually revising this guide in its entirety for v2. I am hoping that I can do this during the Nothern Hemisphere's summer.
+I am gradually revising this guide in its entirety for v2.
+
+So far the following chapters have been updated:
+
+1. [Get Emacs for Windows](./10.Get-Emacs.md)
+2. [Use Emacs to write some text (including copy & paste)](./20.Use-Emacs.md)
+3. [Set up Org-roam (including MSYS2 and emacsql-sqlite.exe)](./30.setup-org-roam.md) [WIP but main parts are illustrated with a series of screen shots, so you should be able to install Org-roam V2]
 
 The the latest version of this guide compatible for v1 is available in the [v1 branch of this repositry](https://github.com/nobiot/Zero-to-Emacs-and-Org-roam/tree/v1).
 
@@ -34,7 +40,7 @@ Even if you are already down the path of using a framework like Doom, I hope ste
 ## Part 1
 
 1. [Get Emacs for Windows](./10.Get-Emacs.md)
-2. Use Emacs to write some text (including copy & paste)
+2. [Use Emacs to write some text (including copy & paste)](./20.Use-Emacs.md)
 3. [Set up Org-roam (including MSYS2 and emacsql-sqlite.exe)](./30.setup-org-roam.md) [WIP but main parts are illustrated with a series of screen shots]
 4. Improve quality-of-life with your font, theme, and minimal select packages
 
