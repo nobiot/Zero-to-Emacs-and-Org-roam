@@ -1,0 +1,72 @@
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; Comment/uncomment this line to enable MELPA Stable if desired.  See `package-archive-priorities`
+;; and `package-pinned-packages`. Most users will not need or want to do this.
+;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(package-initialize)
+(setq package-check-signature nil)
+
+;; Selectrum -- Completion in minibuffer
+(selectrum-mode +1)
+;; to make sorting and filtering more intelligent
+(selectrum-prescient-mode +1)
+
+;; to save your command history on disk, so the sorting gets more
+;; intelligent over time
+(prescient-persist-mode +1)
+
+;; Olivetti
+;; Look & Feel for long-form writing
+
+;; Enable Olivetti for text-related mode such as Org Mode
+(add-hook 'text-mode-hook 'olivetti-mode)
+
+;; Optional additional aesthetic changes
+;; Adapted from `sanity.el' in Elegant Emacs by Nicolas P. Rougier (rougier)
+;; https://github.com/rougier/elegant-emacs
+
+(setq inhibit-startup-screen t)
+(setq inhibit-startup-echo-area-message t)
+(setq inhibit-startup-message t)
+(setq initial-scratch-message nil)
+(setq initial-major-mode 'org-mode)
+(setq-default indent-tabs-mode nil)
+(setq pop-up-windows nil)
+(tool-bar-mode 0) 
+(tooltip-mode  0)
+(scroll-bar-mode 0)
+(menu-bar-mode 1) ;menu bar is explicitly turned on for beginners. Change the value to 0.
+
+;; Optional aditional aesthetic changes
+;; Adapted from `elegance.el' in Elegant Emacs by Nicolas P. Rougier (rougier)
+;; https://github.com/rougier/elegant-emacs
+
+;; Line cursor and no blink
+(set-default 'cursor-type  '(bar . 1))
+(blink-cursor-mode 0)
+
+;; Line spacing, can be 0 for code and 1 or 2 for text
+(setq-default line-spacing 0)
+
+;; Underline line at descent position, not baseline position
+(setq x-underline-at-descent-line t)
+
+
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(cua-mode t nil (cua-base))
+ '(custom-enabled-themes '(modus-operandi))
+ '(custom-safe-themes
+   '("2f93ebb862a9d50fee9c1b3302d858e2d2c0bba9d4e1be9bb3b08b7373f1710c" default))
+ '(package-selected-packages '(olivetti selectrum-prescient selectrum modus-themes))
+ '(tool-bar-mode nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family "Overpass Mono" :foundry "outline" :slant normal :weight normal :height 120 :width normal)))))
