@@ -10,7 +10,8 @@ So far the following chapters have been updated:
 
 1. [Get Emacs for Windows](./10.Get-Emacs.md)
 2. [Use Emacs to write some text (including copy & paste)](./20.Use-Emacs.md)
-3. [Set up Org-roam (including MSYS2 and emacsql-sqlite.exe)](./30.setup-org-roam.md) [WIP but main parts are illustrated with a series of screen shots, so you should be able to install Org-roam V2]
+3. [Improve quality-of-life with your font, theme, and minimal select packages](./30.improve-emacs-qol.md)
+4. [Set up Org-roam (including MSYS2 and emacsql-sqlite.exe)](./30.setup-org-roam.md) [WIP but main parts are illustrated with a series of screen shots, so you should be able to install Org-roam V2]
 
 The the latest version of this guide compatible for v1 is available in the [v1 branch of this repositry](https://github.com/nobiot/Zero-to-Emacs-and-Org-roam/tree/v1).
 
@@ -41,8 +42,9 @@ Even if you are already down the path of using a framework like Doom, I hope ste
 
 1. [Get Emacs for Windows](./10.Get-Emacs.md)
 2. [Use Emacs to write some text (including copy & paste)](./20.Use-Emacs.md)
-3. [Set up Org-roam (including MSYS2 and emacsql-sqlite.exe)](./30.setup-org-roam.md) [WIP but main parts are illustrated with a series of screen shots]
-4. Improve quality-of-life with your font, theme, and minimal select packages
+3. [Improve quality-of-life with your font, theme, and minimal select packages](./30.improve-emacs-qol.md)
+4. [Set up Org-roam (including MSYS2 and emacsql-sqlite.exe)](./30.setup-org-roam.md) [WIP but main parts are illustrated with a series of screen shots]
+
 
 ## Part 2
 5. (maybe) How to swap CapsLock with Ctrl
