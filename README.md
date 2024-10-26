@@ -1,5 +1,9 @@
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 
+# Notes on the current status
+
+I am writing this note 26 October 2024. If you are using Emacs 29 or higher, `sqlite` comes with Emacs (if you download a pre-compiled version for Windows). This is currently the easiest way to enable Org-roam on Windows. This means you do not need to compile `emacs-sqlite.exe` with MSYS2 on your end. Org-roam still requires `emacsql-builtin`, which is now incorporated into [`emacsql`](https://melpa.org/#/emacsql). It is a prequisite of `org-roam`, so installing it from MELPA should also automatically install `emacsql`. This means chapter 4 currently available is no longer needed. I still think MSYS2 is useful for Emacs and Org-roam users on Windows because it gives you supporting programs such as Aspell (for spell-checking) and Grep (for text search in Emacs). I have not been able to come back to this guide so for long, but I am not archiving it yet; I am still hoping to come back to it to add information for Org-roam users on Windows. Thank you for your patience. If any part of the current content has confused you, I am sorry. 
+
 # Notes on Org-roam V2
 
 As of 17 Jul 2021, V2 has been released. Both MELPA and MELPA-Stable have this version of Org-roam. It will be markedly different from v1 for both its initial setup and daily usage. At the moment, most of the content of guide will only be applicable to v1 for Org-roam and its related packages such as Org-roam-bibtex.
